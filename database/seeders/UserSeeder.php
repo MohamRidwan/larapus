@@ -22,7 +22,7 @@ class UserSeeder extends Seeder
 
         //membuat member role
         $memberRole = new Role();
-        $memberRole->name = "m ember";
+        $memberRole->name = "member";
         $memberRole->display_name = "Member Larapus";
         $memberRole->save();
 
