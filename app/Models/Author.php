@@ -24,6 +24,6 @@ class Author extends Model
     {
         // model 'Author' bisa memiliki banyak data diri
         // model 'Book' melalui fk 'author_id'
-        return $this->hasMany('App\Model\Book','author_id');
+        return $this->hasMany('App\Models\Book','author_id');
     }
 }
