@@ -30,5 +30,5 @@ Route::group (['prefix' => 'admin','middleware' => ['auth','role:admin']] ,funct
         return view('admin.index');
     });
     Route::resource('author', AuthorController::class);
-Route::resource('books', BookController::class);
+    Route::resource('books', BookController::class);
     });
